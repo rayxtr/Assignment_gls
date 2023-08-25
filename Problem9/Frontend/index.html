@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h1 id="heading">Welcome to User Authentication Application </h1>
+
+    <div class="container">
+        <h1>User Authentication</h1>
+        <div id="registration-form">
+            <h2>Register</h2>
+            <input type="text" id="rname" placeholder="Name" required>
+            <input type="email" id="remail" placeholder="Email" required>
+            <input type="password" id="rpassword" placeholder="Password" required>
+            <button id="rbtn">Register</button>
+        </div>
+        <h3>
+            If you already Registered Please Login Here......
+        </h3>
+        <div id="login-form">
+            <h2>Login</h2>
+            <input type="email" id="lemail" placeholder="Email" required>
+            <input type="password" id="lpassword" placeholder="Password" required>
+            <button id="lbtn">Login</button>
+        </div>
+        <div id="user_details" style="display: none;">
+            <h2>Welcome Mate</h2>
+            <p id="user_name"></p>
+            <p id="user_email"></p>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
